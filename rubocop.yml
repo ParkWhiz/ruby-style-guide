@@ -1,0 +1,25 @@
+Metrics/AbcSize:
+  Max: 45
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 18
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/PerceivedComplexity:
+  Max: 21
+
+Metrics/MethodLength:
+  Max: 50
+
+# Make the linter agnostic about single vs double quotes
+Style/StringLiterals:
+  Enabled: false
+
+# Make the linter agnostic about single vs double quotes (in interpolations)
+Style/StringLiteralsInInterpolation:
+  Enabled: false
