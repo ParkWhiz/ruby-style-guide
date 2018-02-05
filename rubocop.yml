@@ -16,6 +16,9 @@ Metrics/PerceivedComplexity:
 Metrics/MethodLength:
   Max: 50
 
+Style/Documentation:
+  Enabled: false
+
 # Make the linter agnostic about single vs double quotes
 Style/StringLiterals:
   Enabled: false
