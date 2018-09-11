@@ -26,3 +26,9 @@ Style/StringLiterals:
 # Make the linter agnostic about single vs double quotes (in interpolations)
 Style/StringLiteralsInInterpolation:
   Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/NegatedIf:
+  Enabled: false
