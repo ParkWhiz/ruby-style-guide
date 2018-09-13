@@ -32,3 +32,6 @@ Style/IfUnlessModifier:
 
 Style/NegatedIf:
   Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
