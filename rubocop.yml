@@ -35,3 +35,9 @@ Style/NegatedIf:
 
 Style/RaiseArgs:
   Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: consistent_comma
