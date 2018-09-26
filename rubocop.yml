@@ -41,7 +41,12 @@ Style/TrailingCommaInArguments:
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: consistent_comma
-  
+
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
-  
+
+Style/TrailingUnderscoreVariable:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
