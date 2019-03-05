@@ -1,3 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.3.3
+
 Metrics/AbcSize:
   Max: 45
 
@@ -50,3 +53,6 @@ Style/TrailingUnderscoreVariable:
 
 Style/MultilineBlockChain:
   Enabled: false
+  
+Style/SymbolArray:
+  EnforcedStyle: brackets
