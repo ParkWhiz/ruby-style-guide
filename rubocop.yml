@@ -62,3 +62,15 @@ Style/MultilineBlockChain:
   
 Style/SymbolArray:
   EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/GuardClause:
+  Enabled: false
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/Lambda:
+  EnforcedStyle: literal
