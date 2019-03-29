@@ -17,7 +17,7 @@ Metrics/LineLength:
   Max: 100
 
 Metrics/PerceivedComplexity:
-  Max: 21
+  Max: 35
 
 Metrics/MethodLength:
   Max: 50
@@ -74,3 +74,6 @@ Style/NumericPredicate:
 
 Style/Lambda:
   EnforcedStyle: literal
+
+Naming/PredicateName:
+  Enabled: false
