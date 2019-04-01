@@ -1,6 +1,9 @@
 AllCops:
   TargetRubyVersion: 2.3.3
 
+Naming/PredicateName:
+  Enabled: false
+
 Metrics/AbcSize:
   Max: 45
 
@@ -17,7 +20,7 @@ Metrics/LineLength:
   Max: 100
 
 Metrics/PerceivedComplexity:
-  Max: 21
+  Enabled: false
 
 Metrics/MethodLength:
   Max: 50
@@ -44,6 +47,9 @@ Style/NegatedIf:
 
 Style/RaiseArgs:
   Enabled: false
+
+Style/RescueStandardError:
+  EnforcedStyle: implicit
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: consistent_comma
