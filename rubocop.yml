@@ -1,82 +1,18 @@
 AllCops:
-  TargetRubyVersion: 2.3.3
+  TargetRubyVersion: 2.6.3
+  DisabledByDefault: true
 
-Naming/PredicateName:
-  Enabled: false
+Lint/UnusedBlockArgument:
+  Enabled: true
+  IgnoreEmptyBlocks: true
+  AllowUnusedKeywordArguments: false
 
-Metrics/AbcSize:
-  Max: 45
+Lint/UnusedMethodArgument:
+  Enabled: true
+  AllowUnusedKeywordArguments: false
+  IgnoreEmptyMethods: true
 
-Metrics/BlockLength:
-  Enabled: false
+Lint/UselessAssignment:
+  StyleGuide: '#underscore-unused-vars'
+  Enabled: true
 
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Max: 18
-
-Metrics/LineLength:
-  Max: 100
-
-Metrics/PerceivedComplexity:
-  Enabled: false
-
-Metrics/MethodLength:
-  Max: 50
-
-Metrics/ModuleLength:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
-# Make the linter agnostic about single vs double quotes
-Style/StringLiterals:
-  Enabled: false
-
-# Make the linter agnostic about single vs double quotes (in interpolations)
-Style/StringLiteralsInInterpolation:
-  Enabled: false
-
-Style/IfUnlessModifier:
-  Enabled: false
-
-Style/NegatedIf:
-  Enabled: false
-
-Style/RaiseArgs:
-  Enabled: false
-
-Style/RescueStandardError:
-  EnforcedStyle: implicit
-
-Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingUnderscoreVariable:
-  Enabled: false
-
-Style/MultilineBlockChain:
-  Enabled: false
-  
-Style/SymbolArray:
-  EnforcedStyle: brackets
-
-Style/WordArray:
-  EnforcedStyle: brackets
-
-Style/GuardClause:
-  Enabled: false
-
-Style/NumericPredicate:
-  Enabled: false
-
-Style/Lambda:
-  EnforcedStyle: literal
